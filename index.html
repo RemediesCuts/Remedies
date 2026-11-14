@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>REMEDIES | Video Editing & Visual Storytelling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo" data-target="home">Remedies.</div>
+        <nav>
+            <button class="nav-link active" data-page="home">Home</button>
+            <button class="nav-link" data-page="works">Works</button>
+            <button class="nav-link" data-page="contact">Contact</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== หน้า 1: HOME (รูปวงกลมเยื้องซ้าย & No Scroll) ==================== -->
+        <section id="page-home" class="page-view home-page active">
+            <!-- มุมบนซ้ายและขวา -->
+            <div class="hero-top-left">REMEDIES.STUDIO</div>
+            <div class="hero-top-right">PORTFOLIO 2026</div>
+
+            <!-- เส้นแบ่งแนวนอนพาดผ่านจอ -->
+            <div class="hero-divider-line"></div>
+
+            <!-- ข้อความย่อยซ้ายและขวา -->
+            <div class="hero-side-text left">
+                <span class="accent-star">❖</span> HI THERE
+            </div>
+            <div class="hero-side-text right">
+                Crafting high-impact vertical clips,<br>
+                short-form content, and visual narratives.
+            </div>
+
+            <!-- รูปภาพวงกลม (เยื้องมาทางซ้าย) -->
+            <div class="hero-image-container">
+                <img src="remedieslogo.png" alt="Remedies Portrait">
+            </div>
+
+            <!-- พาดหัวใหญ่ยักษ์ทับหน้าภาพ -->
+            <div class="hero-center-content">
+                <h1 class="hero-huge-title">
+                    REMEDIES<br>
+                    <span class="highlight-text">.CUTS</span>
+                </h1>
+            </div>
+
+            <!-- ปุ่มกดเปลี่ยนหน้าด้านล่าง -->
+            <div class="hero-bottom-actions">
+                <button class="btn-primary" data-target="works" data-page="works">View Works</button>
+                <button class="btn-outline" data-target="contact" data-page="contact">Get In Touch</button>
+            </div>
+        </section>
+
+        <!-- ==================== หน้า 2: WORKS (5 ช่องเต็มจอ) ==================== -->
+        <section id="page-works" class="page-view works-page">
+            <div class="page-title-bar">
+                <h2>Short form</h2>
+                <span class="work-count" id="work-counter"></span>
+            </div>
+
+            <!-- แถบปุ่มกรองหมวดหมู่ -->
+            <div class="controls-bar">
+                <div class="filter-group" id="dynamic-filter-bar"></div>
+            </div>
+
+            <div class="grid-vertical" id="list-vertical"></div>
+        </section>
+
+        <!-- ==================== หน้า 3: CONTACT ==================== -->
+        <section id="page-contact" class="page-view contact-page">
+            <span class="home-eyebrow">Available for Projects</span>
+            <h2>Let's Work Together</h2>
+            <p>Open for short-form video editing, TikTok/Reels campaigns, and gaming highlights.</p>
+            <a href="mailto:hello@remedies.studio" class="btn-primary contact-mail-btn">hello@remedies.studio</a>
+            
+            <div class="social-links">
+                <a href="https://www.tiktok.com" target="_blank" rel="noopener">TikTok</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener">YouTube</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 REMEDIES. ALL RIGHTS RESERVED.
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
